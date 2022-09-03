@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6632754381624040572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6632754381624040575}
+  - component: {fileID: 6632754381624040574}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6632754381624040575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6632754381624040572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6632754381624040574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6632754381624040572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7bcb99fc3400064b9df812abd7f5c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sounds:
+  - name: Menu
+    clip: {fileID: 8300000, guid: 0a34fdc8e09b31047a58875d93136ac3, type: 3}
+    volume: 1
+    mixerGroup: {fileID: -4142090034731582297, guid: c54f3d00b933d024f88c9a612f3855e8, type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: Town
+    clip: {fileID: 8300000, guid: b6b55628352e44a4db0b6afbe1822f8d, type: 3}
+    volume: 1
+    mixerGroup: {fileID: 316528036300958530, guid: c54f3d00b933d024f88c9a612f3855e8, type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: Hill
+    clip: {fileID: 8300000, guid: 43c070d7204a39e41a0f77ad8f2db1e4, type: 3}
+    volume: 1
+    mixerGroup: {fileID: -7687623214672163171, guid: c54f3d00b933d024f88c9a612f3855e8, type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: Lake
+    clip: {fileID: 8300000, guid: 63a88f2b4c59f4d468e9090675f68e84, type: 3}
+    volume: 1
+    mixerGroup: {fileID: -2636702526141643735, guid: c54f3d00b933d024f88c9a612f3855e8, type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: End
+    clip: {fileID: 8300000, guid: 3bb726359f1b662488260d0c4f3cd647, type: 3}
+    volume: 1
+    mixerGroup: {fileID: 2276081214688141820, guid: c54f3d00b933d024f88c9a612f3855e8, type: 2}
+    loop: 0
+    source: {fileID: 0}
